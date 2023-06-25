@@ -6,7 +6,7 @@ class ExternalLabelModeling extends Modeling {
     super(eventBus, elementFactory, commandStack, bpmnRules)
   }
 
-  getHandlers() {
+  getHandlers(): typeof Modeling.prototype.getHandlers {
     const handlers = Modeling.prototype.getHandlers.call(this)
 
     handlers['element.updateLabel'] = UpdateExternalLabelHandler
