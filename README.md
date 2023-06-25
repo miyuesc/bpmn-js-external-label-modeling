@@ -18,7 +18,7 @@ A bpmn-js plugin used to render Label tags outside of nodes.
 
 ```js
 import Modeler from 'bpmn-js/lib/Modeler'
-import ExternalLabelModule from '@/xxx/ExternalLabel'
+import ExternalLabelModule from '@/xxx/bpmn-js-external-label-modeling'
 
 const modeler = new Modeler({
   container: '#container',

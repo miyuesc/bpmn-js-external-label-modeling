@@ -2,10 +2,19 @@ import { getExternalLabelMid, hasExternalLabel, setLabel } from 'bpmn-js/lib/uti
 import { isLabel } from 'diagram-js/lib/util/ModelUtil'
 import { getLabel } from 'bpmn-js/lib/features/label-editing/LabelUtil'
 import { is } from 'bpmn-js/lib/util/ModelUtil'
+import { Connection, Root, Shape } from 'bpmn-js/lib/model/Types'
+import { ModdleElement } from 'bpmn-moddle'
 
 import Modeling from 'bpmn-js/lib/features/modeling/Modeling'
 import TextRenderer from 'bpmn-js/lib/draw/TextRenderer'
 import BpmnFactory from 'bpmn-js/lib/features/modeling/BpmnFactory'
+
+type BpmnModdleEl = ModdleElement
+type BpmnRoot = BpmnModdleEl & Root
+type BpmnShape = BpmnModdleEl & Shape
+type BpmnConnection = BpmnModdleEl & Connection
+
+type BpmnElement = BpmnRoot | BpmnShape | BpmnConnection
 
 const NULL_DIMENSIONS = {
   width: 0,

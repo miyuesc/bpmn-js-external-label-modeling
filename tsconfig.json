@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/types",
+    "declarationDir": "./dist/types", /* 类型声明文件输出目录 */
+    "declaration": true // 生成*.d.ts
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "public",
+    "docs"
+  ]
+}

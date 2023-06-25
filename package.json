@@ -1,0 +1,49 @@
+{
+  "name": "bpmn-js-external-label-modeling",
+  "version": "1.0.0",
+  "description": "A visual grid background for diagram-js, base on diagram-js-grid.",
+  "main": "dist/bpmn-js-external-label-modeling.cjs",
+  "module": "dist/bpmn-js-external-label-modeling.es.js",
+  "umd:main": "dist/bpmn-js-external-label-modeling.umd.js",
+  "types": "dist/bpmn-js-external-label-modeling/index",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "diagram-js",
+    "grid",
+    "bpmn-js",
+    "external-label",
+    "bpmn-js-external-label"
+  ],
+  "scripts": {
+    "build": "rollup --config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miyuesc/bpmn-js-external-label-modeling.git"
+  },
+  "author": "MiyueSC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miyuesc/bpmn-js-external-label-modeling/issues"
+  },
+  "homepage": "https://github.com/miyuesc/bpmn-js-external-label-modeling#readme",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.22.5",
+    "@rollup/plugin-commonjs": "^25.0.1",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "bpmn-js": "^13.2.0",
+    "bpmn-moddle": "^8.0.1",
+    "diagram-js": "^12.2.0",
+    "rollup": "^2.79.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^5.1.3"
+  },
+  "peerDependencies": {
+    "bpmn-js": "^13.2.0",
+    "bpmn-moddle": "^8.0.1",
+    "diagram-js": "^12.2.0"
+  }
+}
