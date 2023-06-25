@@ -1,7 +1,7 @@
 {
   "name": "bpmn-js-external-label-modeling",
-  "version": "1.0.1",
-  "description": "A visual grid background for diagram-js, base on diagram-js-grid.",
+  "version": "1.0.2",
+  "description": "A bpmn-js plugin used to render Label tags outside of nodes.",
   "main": "dist/bpmn-js-external-label-modeling.cjs",
   "module": "dist/bpmn-js-external-label-modeling.es.js",
   "umd:main": "dist/bpmn-js-external-label-modeling.umd.js",
