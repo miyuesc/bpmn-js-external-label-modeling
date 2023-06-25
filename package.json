@@ -8,6 +8,7 @@
   "types": "dist/bpmn-js-external-label-modeling/index",
   "files": [
     "dist",
+    "screenshot",
     "bpmn-js-external-label-modeling"
   ],
   "keywords": [
