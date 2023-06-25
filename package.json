@@ -7,7 +7,8 @@
   "umd:main": "dist/bpmn-js-external-label-modeling.umd.js",
   "types": "dist/bpmn-js-external-label-modeling/index",
   "files": [
-    "dist"
+    "dist",
+    "bpmn-js-external-label-modeling"
   ],
   "keywords": [
     "diagram-js",
